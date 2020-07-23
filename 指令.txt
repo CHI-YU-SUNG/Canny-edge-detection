@@ -1,0 +1,23 @@
+$ conda create -n 虛擬環境名稱 python=3.7
+$ conda activate 虛擬環境名稱   //open
+$ conda deactivate            //close
+$ conda remove --name 虛擬環境名稱 --all //remove
+$ conda info --envs  //look up env
+$ conda list         //look up current packages 
+
+tensorflow and karas版本配對:https://docs.floydhub.com/guides/environments/?fbclid=IwAR2kFZu7w2HIvorhD-huXWYlT-EX2zRfWG4kK7ywlPe9jxaOJUFAXE2Q49w
+$ conda uninstall package_to_uninstall  //欲刪除之前用conda安裝的package則使用以下指令:
+
+
+pip 套件
+$ pip install tensorflow==1.15      # CPU
+$ pip install tensorflow-gpu==1.15  # GPU
+
+IPython 套件
+$ pip install notebook
+$ pip install ipython
+$ pip install jupyter
+
+安裝opencv
+$ sudo apt-get install python-opencv
+
